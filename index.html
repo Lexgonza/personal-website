@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jenny's Personal Website</title>
+    <style>
+        body {
+            background-color: #fff8f0;
+            font-family: 'Georgia', serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .profile-pic {
+            width: 150px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        section {
+            background-color: #f9f9f9;
+            margin: 30px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.05);
+        }
+
+        ul {
+            list-style: square inside;
+            text-align: left;
+            padding-left: 0;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="jenny.jpg" alt="Jenny's Photo" class="profile-pic">
+
+        <h1>Hi, I'm Jenny!</h1>
+        <p>I'm learning tech and building awesome things.</p>
+
+        <section>
+            <h2>About Me</h2>
+            <p>I'm Jenny, a business advisor and crypto investor. I'm passionate about tech, financial freedom, and helping others grow.</p>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>Investment Fund Launch</li>
+                <li>Mentoring Young Entrepreneurs</li>
+                <li>Promoting Crypto on TikTok</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Connect with me on:
+                <a href="#">Instagram</a>,
+                <a href="#">LinkedIn</a>,
+                <a href="#">Twitter</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
